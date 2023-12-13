@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Appication Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+     <h1>Job Applicatation 
+        <span class="small">(WEB)</span><!--Now the small_size is the name of (web) in CSS-->
+    </h1>
+
+    <!-- for name and detailed -->
+<form action="">
+<div class="form_container">
+<div class="form_control">
+    <label for="First name"> First Name </label>
+    <input id="Enter Your Name" name="Enter Your Name" placeholder="Enter First Name" />
+</div>
+
+<div class="form_control">
+    <label for="Last Name" >Last Name</label>
+    <input id="Enter Last Name" name="Enter Last Name" placeholder="Enter Last Name"/>
+</div>
+<div class="form_control">
+    <label for="email">Email</label>
+    <input id="Enter Your Email"name="Enter Your Email"placeholder="Enter Email"/>
+</div>
+
+    <!-- for job selection -->
+<div class="form_control">
+    <label for="job rule">Job Rule</label>
+<select name="job Rule"id="job Rule">
+    <option value="select job rules">Select Job Rules</option>
+    <option value="">Fronted Developer</option>
+    <option value="backent">Backent Developer</option>
+    <option value="Full Stack">Full Stack</option>
+    <option value="Designer">Disigner</option>
+</select>
+</div>
+
+     <!-- for giving address -->
+     <div class="textarea_control">
+<label for="address">Address</label>
+<textarea name="Address" id="Address" cols="50" row="4"placeholder="Enter Address"></textarea>
+     </div>
+
+<!-- foe giving city -->
+<div class="form_control">
+    <label for="city"> City </label>
+    <input id="city" name="city" placeholder="Enter City Name..." />
+  </div>
+
+<!-- for giving pincode-->
+<div class="form_control">
+<label for="Pincode">Pincode</label>
+<input type="Pincode" name="Pincode" id="Pincoode"placeholder="Enter Pincode"/>
+</div>
+
+<!-- for giving date -->
+<div class="form_control">
+<label for="Date">Date</label>
+<input type="Date"id="Date" name="Date"/>
+</div>
+
+<!-- for giving uplode CV -->
+<div class="form_control">
+<label for="Upload Your CV">Upload Your CV</label>
+<input type="File"id="Upload"name="Upload"/>
+</div>
+</div>
+
+<!-- for giving Apply now button -->
+<div class="button_container">
+<button type="submit">Apply Now</button>
+</div>
+</form>
+</div>
+</div>
+
+</body>
+</html>
