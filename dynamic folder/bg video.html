@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Background Video</title>
+    <style>
+        /* Set video as a background, cover the entire viewport */
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1; /* Place it behind other content */
+        }
+
+        /* Optional: Style the content over the video */
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: #fff;
+            padding: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Use the <video> element to embed your background video -->
+    <video autoplay muted loop>
+        <source src="bg video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is some content over the dynamic video background.</p>
+    </div>
+</body>
+</html>
